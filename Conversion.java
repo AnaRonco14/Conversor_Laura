@@ -3,9 +3,13 @@ public class Conversion{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        switch (scanner.nextInt()) { 
-
-            sout.println("Seleccione la conversión que desea realizar:");
+        System.out.println("Seleccione la conversión que desea realizar:");
+        System.out.println("1. Kilómetros a Millas");
+        System.out.println("2. Litros a Galones");
+        System.out.println("3. Gramos a Onzas");
+        System.out.println("4. Centímetros a Pulgadas");
+        int opcion = scanner.nextInt();
+        switch (opcion) {
 
 
             case 1:
